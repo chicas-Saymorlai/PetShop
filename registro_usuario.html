@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
-    <link rel="stylesheet" href="boostrap/css/registro.css">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="boostrap/css/registro_usuario.css">
 </head>
 <body>
     <div class="register-container">
-        <h2>Registrarse</h2>
-        <form action="#" method="post">
+        <h2>Registro de Usuario</h2>
+        <form action="registro.html" method="post">
             <div class="input-group">
                 <label for="name">Nombre y Apellido:</label>
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="input-group">
-                <label for="contact">Correo Electrónico o Teléfono:</label>
+                <label for="contact">Teléfono o Correo Electrónico:</label>
                 <input type="text" id="contact" name="contact" required>
             </div>
             <div class="input-group">
@@ -27,21 +27,14 @@
                 <input type="date" id="dob" name="dob" required>
             </div>
             <div class="input-group">
-                <label for="password">Crear Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="input-group">
-                <label for="confirm-password">Confirmar Contraseña:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-            </div>
-            <div class="input-group terms">
                 <input type="checkbox" id="terms" name="terms" required>
                 <label for="terms">Acepto los términos y condiciones</label>
             </div>
-            <button type="submit" class="register-button">Registrarse</button>
-            <p class="login-text">¿Ya tienes cuenta? <a href="inicio_sesion.html">Iniciar Sesión</a></p>
+            <button type="submit" class="register-button">Siguiente</button>
         </form>
+        <p class="login-text">¿Ya tienes cuenta? <a href="inicio_sesion.html">Inicia Sesión</a></p>
     </div>
 </body>
 </html>
+
 

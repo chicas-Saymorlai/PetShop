@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 
 .register-container {
     width: 100%;
-    max-width: 400px; 
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -23,11 +23,11 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: black 
+    color: black;
 }
 
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .input-group label {
@@ -35,11 +35,23 @@ h2 {
     font-weight: bold;
 }
 
-.input-group input[type="password"] {
+.input-group input[type="text"],
+.input-group input[type="date"] {
     width: calc(100% - 20px); 
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.input-group input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+.input-group.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
 }
 
 .register-button {
@@ -53,11 +65,26 @@ h2 {
 }
 
 .register-button:hover {
-    background-color: gray; 
+    background-color: #0056b3;
 }
 
 .login-text {
     text-align: center;
     margin-top: 20px;
 }
+
+.login-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
 
