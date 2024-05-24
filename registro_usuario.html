@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="boostrap/css/registro_usuario.css">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Registro de Usuario</h2>
+        <form action="registro.html" method="post">
+            <div class="input-group">
+                <label for="name">Nombre y Apellido:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="contact">Teléfono o Correo Electrónico:</label>
+                <input type="text" id="contact" name="contact" required>
+            </div>
+            <div class="input-group">
+                <label for="postal-code">Código Postal:</label>
+                <input type="text" id="postal-code" name="postal-code" required>
+            </div>
+            <div class="input-group">
+                <label for="dob">Fecha de Nacimiento:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Acepto los términos y condiciones</label>
+            </div>
+            <button type="submit" class="register-button">Siguiente</button>
+        </form>
+        <p class="login-text">¿Ya tienes cuenta? <a href="inicio_sesion.html">Inicia Sesión</a></p>
+    </div>
+</body>
+</html>
+
+
