@@ -1,0 +1,16 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10p;
+    
+}
+
+.img1 {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    width: 1px;
+    height: 1px;
+}
