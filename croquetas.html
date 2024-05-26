@@ -3,31 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descripción del Producto</title>
+    <title>Descripción de Producto</title>
     <link rel="stylesheet" href="boostrap/css/descripción.css">
 </head>
 <body>
-    <div class="product-description">
-        <h1>Croquetas</h1>
-        <div class="product-info">
-            <div class="product-images">
-                <img src="imagenes/p1.jpg" alt="Imagen 1">
-                <img src="imagenes/descripcion/p1.jpg" alt="Imagen 2">
-            </div>
-            <div class="product-details">
-                <p class="price">$999</p>
-                <div class="quantity">
-                    <label for="quantity">Cantidad:</label>
-                    <input type="number" id="quantity" name="quantity" min="1" value="1">
-                </div>
-                <p>Disponibilidad: 50 en stock</p>
-                <button class="add-to-cart">Añadir al carrito <img src="imagenes/carrito/carrito.png"></button>
-            </div>
+    <div class="product-container">
+        <div class="product-images">
+            <img src="imagenes/p1.jpg" alt="Imagen del Producto 1">
         </div>
-        <div class="product-description-text">
-            <h2>Descripción</h2>
-            <p>Descripción detallada del producto...</p>
+        <div class="product-details">
+            <h1>Croquetas</h1>
+            <p class="price">Precio: $999</p>
+            <p class="description"> ¡Alimenta a tu fiel compañero con las croquetas DOG PREMIUM Lamb & Rice! Este delicioso alimento está diseñado para satisfacer las necesidades de perros de todas las edades y razas.  Contiene cordero y arroz para una dieta balanceada, rica en proteínas y fácil de digerir, asegurando energía y bienestar diario.</p>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+            <button class="add-to-cart">
+                <img src="imagenes/carrito/carrito.png" alt="Icono del Carrito" class="cart-icon">
+                Añadir al Carrito
+            </button>
         </div>
     </div>
 </body>
 </html>
+
+
